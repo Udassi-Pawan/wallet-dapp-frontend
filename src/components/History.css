@@ -1,0 +1,31 @@
+.history {
+  justify-content: center;
+  align-self: center;
+  gap: 1rem;
+}
+.history .history-entry {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #ccc;
+  /* margin-bottom: 2rem; */
+}
+
+.history .history-entry p {
+  margin: 0.5rem;
+  font-size: 1.2rem;
+}
+.history .history-entry b {
+  margin: 0.4rem;
+}
+
+.history .history-entry h3 {
+  color: aquamarine;
+}
+
+.line {
+  height: 0.06rem;
+  background-color: #aaa;
+  margin-top: 1rem;
+  width: 100%;
+}

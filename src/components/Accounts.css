@@ -1,0 +1,22 @@
+.accounts {
+  color: #ccc;
+}
+
+.accounts .accounts-entry {
+  background-color: #777;
+  margin: 0.5rem 0;
+  padding: 0.3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 30rem;
+  text-align: center;
+}
+
+.accounts .accounts-entry:hover {
+  background-color: #888;
+}
+
+.highlight {
+  background-color: #00b377 !important;
+  color: #555;
+}

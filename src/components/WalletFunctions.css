@@ -1,0 +1,50 @@
+.wallet {
+  gap: 1rem;
+  align-items: flex-end;
+}
+
+.wallet .create {
+  align-self: center;
+  width: 20rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: aquamarine;
+  border: none;
+  margin: 0 0.5rem;
+  border-radius: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  color: #222;
+}
+
+input {
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  margin: 0 0.5rem;
+  background-color: #aaa;
+  color: #222;
+}
+
+input:focus {
+  outline: none;
+}
+
+input::placeholder {
+  color: #333;
+}
+
+.addr {
+  width: 30rem;
+}
+
+#send {
+  width: 7.6rem;
+}
+
+.wallet-inputs {
+  display: flex;
+}

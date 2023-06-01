@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111;
+  color: #eee;
+}
+
+.homepage-parent .mid {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.homepage-parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-parent h2 {
+  margin-bottom: 0.5rem;
+}
+
+@media only screen and (max-width: 1559px) {
+  html {
+    font-size: 90%;
+  }
+}
+
+@media only screen and (max-width: 1420px) {
+  .homepage-parent .mid {
+    flex-direction: column-reverse;
+  }
+}
+
+@media only screen and (max-width: 868px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (max-width: 680px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+@media only screen and (max-width: 558px) {
+  html {
+    font-size: 50%;
+  }
+}
