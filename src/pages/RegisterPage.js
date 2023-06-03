@@ -14,7 +14,7 @@ const RegisterPage = () => {
       return alert("Password should be longer than 6 characters!");
 
     setLoading(true);
-    const url = "http://localhost:5000/register";
+    const url = `${process.env.REACT_APP_URL}/register`;
     try {
       await fetch(url, {
         method: "POST",

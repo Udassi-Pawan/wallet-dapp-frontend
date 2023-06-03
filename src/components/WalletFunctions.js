@@ -13,7 +13,7 @@ const WalletFunctions = () => {
   const createHandler = async (e) => {
     setLoading(true);
     let result;
-    const url = process.env.REACT_APP_URL;
+    const url = `${process.env.REACT_APP_URL}/newacc`;
     try {
       const response = await fetch(url, {
         method: "POST",
@@ -40,7 +40,7 @@ const WalletFunctions = () => {
   const sendHandler = async () => {
     setLoading(true);
     let result;
-    const url = process.env.REACT_APP_URL;
+    const url = `${process.env.REACT_APP_URL}/sendeth`;
     try {
       const response = await fetch(url, {
         method: "POST",

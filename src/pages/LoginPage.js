@@ -11,7 +11,7 @@ const LoginPage = () => {
 
   const loginHandler = async () => {
     setLoading(true);
-    const url = process.env.REACT_APP_URL;
+    const url = `${process.env.REACT_APP_URL}/login`;
     let response2;
     try {
       const response1 = await fetch(url, {

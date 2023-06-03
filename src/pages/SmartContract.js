@@ -57,7 +57,7 @@ const SmartContract = () => {
       (i) => document.getElementById(f.name + "." + i).value
     );
 
-    const url = process.env.REACT_APP_URL;
+    const url = `${process.env.REACT_APP_URL}/fun`;
     try {
       const response = await fetch(url, {
         method: "POST",
