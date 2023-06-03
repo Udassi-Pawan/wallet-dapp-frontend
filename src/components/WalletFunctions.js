@@ -74,7 +74,7 @@ const WalletFunctions = () => {
       <div className="wallet-inputs">
         <input
           onChange={(e) => setPk(e.target.value)}
-          placeholder="pk"
+          placeholder="Private Key"
           className="addr"
         ></input>
         <button id="recover" onClick={createHandler}>

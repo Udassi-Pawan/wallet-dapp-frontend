@@ -53,7 +53,6 @@ const SmartContract = () => {
     let response2;
     const fName = f.name;
     const inputAbiObject = JSON.parse(abi).find((el) => el.name == fName);
-    console.log(inputAbiObject);
     const inputs = f.inputs.map(
       (i) => document.getElementById(f.name + "." + i).value
     );

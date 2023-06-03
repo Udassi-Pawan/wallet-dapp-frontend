@@ -12,7 +12,6 @@ const LoginPage = () => {
   const loginHandler = async () => {
     setLoading(true);
     const url = process.env.REACT_APP_URL;
-    console.log(url);
     let response2;
     try {
       const response1 = await fetch(url, {
@@ -36,7 +35,6 @@ const LoginPage = () => {
     setLoading(false);
     if (response2.username) {
       const { _id, username, token, addresses } = response2;
-      console.log(response2);
       setUser({ _id, username, token });
       setAddresses(addresses);
       setCurAddr(addresses[0]?.address);
