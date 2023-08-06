@@ -68,6 +68,10 @@ const LoginPage = () => {
       <Link to="/register">
         <p className="link">Don't have an account yet?, Register now!</p>
       </Link>
+      <div className="mock">
+        <p>Guest userna me : udassi</p>
+        <p>Guest password : 123456</p>
+      </div>
     </div>
   );
 };

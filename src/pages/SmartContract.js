@@ -87,7 +87,13 @@ const SmartContract = () => {
     setLoading(false);
     setTimeout(function () {
       if (response2.blockNumber > 3602550) alert("Success!");
-      else alert(response2);
+      else {
+        if (typeof response2 == "object") {
+          alert(JSON.stringify(response2));
+        } else {
+          alert(response2);
+        }
+      }
     }, 12);
   };
   return (
@@ -154,3 +160,5 @@ const SmartContract = () => {
 };
 
 export default SmartContract;
+
+// 0x700771a05dA385a564Fa7Bbd4dC68A2416e3fe7F

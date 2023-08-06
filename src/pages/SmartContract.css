@@ -27,6 +27,10 @@
   margin: 2rem auto 5rem;
 }
 
+.smart-contract-parent .contract input {
+  margin: 0.3rem;
+}
+
 .smart-contract-parent .contract button {
   border-radius: 0;
 }
